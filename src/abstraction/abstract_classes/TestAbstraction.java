@@ -28,6 +28,7 @@ public class TestAbstraction {
             if (phone.price > max) mostExp = phone;
         }
         System.out.println("The most expensive = " + mostExp.getClass().getSimpleName());
+        System.out.println("The color for most exp = "+ mostExp.color);
 
         int conv = 0;
         for (Phone phone : phones) {
