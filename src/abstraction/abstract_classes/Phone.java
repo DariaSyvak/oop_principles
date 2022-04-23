@@ -1,6 +1,6 @@
 package abstraction.abstract_classes;
 
-public abstract class Phone {
+public abstract class Phone{
 
     public Phone(){
 
@@ -16,6 +16,7 @@ public abstract class Phone {
     public abstract void ring();
     public abstract void text();
     public abstract boolean isConvertible();
+
 
     public String brand;
     public String color;
